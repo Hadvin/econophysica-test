@@ -5,14 +5,6 @@ nav.menu
       router-link.menu__link(:to="{name: route.name}") {{ route.meta.menuTitle }}
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-import { Component } from 'vue-property-decorator';
-
-@Component
-export default class Layout extends Vue {}
-</script>
-
 <style lang="scss" scoped>
 .menu {
   &__wrap {
