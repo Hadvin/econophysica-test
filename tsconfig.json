@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "es5", "es2015", "es2015.promise"],
+    "allowJs": false,
+    "checkJs": false,
+    "removeComments": false,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+
+    /* Additional Checks */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": "./source",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@components/*": ["components/*"],
+      "@services/*": ["services/*"],
+      "@mixins/*": ["mixins/*"],
+      "@plugins/*": ["plugins/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

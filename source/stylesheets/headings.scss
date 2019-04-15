@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $secondaryFont;
+    font-size: $baseFontSize + $headingScale * (6 - $i);
+    margin-top: 0;
+
+    @media screen and (max-width: 767px) {
+      font-size: $baseFontSize + $headingScaleMobile * (6 - $i);
+    }
+  }
+}

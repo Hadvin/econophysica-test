@@ -1,0 +1,21 @@
+@import '~normalize.scss/normalize.scss';
+
+@import './fonts/montserat.font';
+@import './fonts/geometria.font';
+@import './headings';
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  color: $mainTextColor;
+  font-family: $primaryFont;
+  background-color: $grayBgColor;
+}
